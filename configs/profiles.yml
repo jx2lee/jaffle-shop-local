@@ -1,0 +1,12 @@
+postgres:
+  target: local
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      port: 5432
+      user: postgres
+      password: mysecretpassword
+      database: jaffle_shop
+      schema: dbt_winnie
+      threads: 8
